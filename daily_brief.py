@@ -41,7 +41,7 @@ PORTFOLIO = [
     },
     # ----- Indian index funds (tracked via underlying indexes) -----
     {
-        "ticker": "NIFTY_MIDCAP_150.NS",
+        "ticker": "NIFTYMIDCAP150.NS",
         "display_name": "Motilal Oswal Nifty Midcap 150 (via Nifty Midcap 150 index)",
         "search_terms": "Nifty Midcap 150 OR Indian midcap stocks",
         "currency": "INR",
