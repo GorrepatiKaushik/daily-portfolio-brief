@@ -6,7 +6,7 @@ on:
     # CST is UTC-6, CDT is UTC-5. Cron uses UTC.
     # Running at 11:30 UTC = 6:30 AM CDT (summer) / 5:30 AM CST (winter)
     # If you want exact 6:30 AM regardless of season, use 12:30 UTC instead.
-    - cron: '42 12 * * *'
+    - cron: '52 12 * * *'
   workflow_dispatch:  # allows manual trigger from GitHub UI for testing
 
 jobs:
