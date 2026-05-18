@@ -47,9 +47,9 @@ PORTFOLIO = [
         "currency": "INR",
     },
     {
-        "ticker": "NIFTYSMLCAP250.NS",
-        "display_name": "Nippon India Nifty Smallcap 250 (via Nifty Smallcap 250 index)",
-        "search_terms": "Nifty Smallcap 250 OR Indian smallcap stocks",
+        "ticker": "^NSEI",
+        "display_name": "Nifty50",
+        "search_terms": "Nifty50",
         "currency": "INR",
     },
 ]
