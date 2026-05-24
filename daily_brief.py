@@ -39,7 +39,37 @@ PORTFOLIO = [
         "search_terms": "Nasdaq 100 OR QQQ ETF OR tech stocks",
         "currency": "USD",
     },
+     {
+        "ticker": "BRK-B",
+        "display_name": "Berkshire Hathaway Class B (BRK.B)",
+        "search_terms": "Berkshire Hathaway OR BRK.B OR Warren Buffett",
+        "currency": "USD",
+    },
+    {
+        "ticker": "TSLA",
+        "display_name": "Tesla Inc (TSLA)",
+        "search_terms": "Tesla OR TSLA OR electric vehicles",
+        "currency": "USD",
+    },
+    {
+        "ticker": "INOD",
+        "display_name": "Innodata Inc (INOD)",
+        "search_terms": "Innodata OR INOD OR AI data engineering",
+        "currency": "USD",
+    },
     # ----- Indian index funds (tracked via underlying indexes) -----
+    {
+        "ticker": "^NSEI",
+        "display_name": "UTI Nifty 50 Index Fund (via Nifty 50 index)",
+        "search_terms": "Nifty 50 OR UTI Nifty index fund",
+        "currency": "INR",
+    },
+        {
+        "ticker": "^NSMIDCP",
+        "display_name": "ICICI Prudential Nifty Next 50 Index Fund (via Nifty Next 50 index)",
+        "search_terms": "Nifty Next 50 OR Indian largecap stocks",
+        "currency": "INR",
+    },
     {
         "ticker": "NIFTYMIDCAP150.NS",
         "display_name": "Motilal Oswal Nifty Midcap 150 (via Nifty Midcap 150 index)",
@@ -47,11 +77,11 @@ PORTFOLIO = [
         "currency": "INR",
     },
     {
-        "ticker": "^NSEI",
-        "display_name": "Nifty50",
-        "search_terms": "Nifty50",
+        "ticker": "NIFTYSMLCAP250.NS",
+        "display_name": "Nippon India Nifty SmallCap 250 Index Fund (via Nifty Smallcap 250 index)",
+        "search_terms": "Nifty Smallcap 250 OR Indian smallcap stocks",
         "currency": "INR",
-    },
+    }
 ]
 
 # Alert threshold — flag any holding that falls by this % or more
